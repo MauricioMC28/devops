@@ -24,15 +24,13 @@ Las herramientas pueden variar, entonces considera las herramientas que necesita
 ```
 2. Una vez completado, descarga el distro de Debian
 ```powershell
-wsl --install -d Debian
+wsl.exe --install -d Debian
 ```
-3. Utiliza WSL2
+3. Habilita la version 2 de WSL
 ```powershell
-wsl --set-default-version 2
+wsl.exe --set-default-version 2
 ```
-Para acceder a debian, puedes hacerlo desde Visual Studio Code utilizando la extensión de Remote Explorer.
-
-<a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
+Abre el menú de Windows y ejecuta WSL o Debian, realiza la configuraciones básicas como crear usuario y actualizar el sistema, una vez terminado, continua con el siguiente paso.
 
 #### Actualizar Debian
 1. Actualiza el sistema
@@ -43,3 +41,8 @@ Encontrar la IP del WSL - Debian desde Powershell
 ```
  wsl.exe -d Debian hostname -I
 ```
+
+### Descarga Visual Studio Code e instala la extensión de Remote Explorer.
+
+<a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
+
