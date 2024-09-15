@@ -40,4 +40,14 @@ Encontrar la IP del WSL - Debian desde Powershell
 
 <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
 
+### Clona este repositorio en Debian
+```
+https://github.com/MauricioMC28/devops.git
+```
+Accede a la carpeta del repositorio `cd devops`.
 
+Configuralo como ejecutable con el siguiente comando: `chmod +x devops_tools.sh`
+#### Ejecuta el script
+```
+sudo ./devops_tools.sh
+```
