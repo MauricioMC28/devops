@@ -3,6 +3,11 @@
 Este repositorio consiste en automatizar las herramientas con las que debe contar un DevOps en su equipo de cómputo.
 Las herramientas pueden variar, entonces considera las herramientas que necesitas o las que se te indique.
 
+## Table of Contents
+- [Herramientas en el local](##Herramientas_Locales_recomendadas)
+- [Herramientas en Contenedores](#Herramientas_en_Contenedores)
+- [Herramientas en la nube](#Herramientas_en_la_nube)
+
 ## Herramientas Locales recomendadas 
 - `WSL2`: Herramienta que permite trabajar con Linux dentro de Windows.
 - `Git`: Herramienta que permite gestionar versiones
@@ -15,26 +20,15 @@ Las herramientas pueden variar, entonces considera las herramientas que necesita
 - `Jenkins`: Herramienta para montar pipelines de Ci/CD
 - `Docker Compose`: Herramienta de Docker que permite configurar entornos de desarrollo completos con múltiples servicios.
 
-### Instalación de WSL desde PowerShell
+### Descarga WSL2 e instala Debian
 <a href="https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command"> Documentacion completa a cerca de WSL </a>
-
-1. Abre PowerShell e Instala WSL
-```powershell
- wsl --install
 ```
-2. Una vez completado, descarga el distro de Debian
-```powershell
 wsl.exe --install -d Debian
 ```
-3. Habilita la version 2 de WSL
-```powershell
-wsl.exe --set-default-version 2
-```
-Abre el menú de Windows y ejecuta WSL o Debian, realiza la configuraciones básicas como crear usuario y actualizar el sistema, una vez terminado, continua con el siguiente paso.
 
 #### Actualizar Debian
-1. Actualiza el sistema
-```bash
+- Actualiza el sistema
+```
 sudo apt update && sudo apt upgrade
 ```
 Encontrar la IP del WSL - Debian desde Powershell
@@ -45,4 +39,5 @@ Encontrar la IP del WSL - Debian desde Powershell
 ### Descarga Visual Studio Code e instala la extensión de Remote Explorer.
 
 <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
+
 
