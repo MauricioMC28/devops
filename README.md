@@ -48,7 +48,22 @@ Configuralo como ejecutable con el siguiente comando: `chmod +x devops_tools.sh`
 sudo ./devops_tools.sh
 ```
 
+### Versiones instaladas en este repositorio
+
+### Versiones instaladas
+- curl 7.88.1
+- Python 3.11.2
+- gpg (GnuPG) 2.2.40
+- GNU Wget 1.21.3 built on linux-gnu.
+- git version 2.39.2
+- Docker version 27.2.0, build 3ab4256
+- ansible [core 2.16.11]
+- Kubectl Client Version: v1.31.0
+- Kustomize Version: v5.4.2
+- minikube version: v1.33.1
+
 ## Herramientas recomendadas en contenedores o en la nube:
 - `Prometheus + Grafana`: Herramientas de monitoreo
 - `ElasticSearch + Kibana`: Herramienta de análisis y monitoreo de Logs.
 - `Jenkins`: Herramienta para montar pipelines de Ci/CD
+
