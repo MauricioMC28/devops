@@ -4,7 +4,7 @@ Este repositorio consiste en automatizar las herramientas con las que debe conta
 Las herramientas pueden variar, entonces considera las herramientas que necesitas o las que se te indique.
 
 ## Table of Contents
-- [Herramientas a instalar en Local](##Herramientas_Locales_recomendadas).
+- [Herramientas a instalar en Local](#herramientas-locales-recomendadas).
 - [Herramientas en Contenedores o en la nube](##Herramientas_recomendadas_en_contenedores_o_en_la_nube).
 
 ## Herramientas Locales recomendadas 
