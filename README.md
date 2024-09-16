@@ -4,9 +4,8 @@ Este repositorio consiste en automatizar las herramientas con las que debe conta
 Las herramientas pueden variar, entonces considera las herramientas que necesitas o las que se te indique.
 
 ## Table of Contents
-- [Herramientas en el local](##Herramientas_Locales_recomendadas)
-- [Herramientas en Contenedores](#Herramientas_en_Contenedores)
-- [Herramientas en la nube](#Herramientas_en_la_nube)
+- [Herramientas a instalar en Local](##Herramientas_Locales_recomendadas).
+- [Herramientas en Contenedores o en la nube](##Herramientas_recomendadas_en_contenedores_o_en_la_nube).
 
 ## Herramientas Locales recomendadas 
 - `WSL2`: Herramienta que permite trabajar con Linux dentro de Windows.
@@ -15,9 +14,6 @@ Las herramientas pueden variar, entonces considera las herramientas que necesita
 - `Ansible`: Herramienta que permite automatizar la configuración de servidores
 - `Docker`: Herramienta que permite gestionar contenedores
 - `Minikube o Kind`: Herramienta que permite ejecutar clúster de Kubernetes
-- `Prometheus + Grafana`: Herramientas de monitoreo
-- `ElasticSearch + Kibana`: Herramienta de análisis y monitoreo de Logs.
-- `Jenkins`: Herramienta para montar pipelines de Ci/CD
 - `Docker Compose`: Herramienta de Docker que permite configurar entornos de desarrollo completos con múltiples servicios.
 
 ### Descarga WSL2 e instala Debian
@@ -51,3 +47,8 @@ Configuralo como ejecutable con el siguiente comando: `chmod +x devops_tools.sh`
 ```
 sudo ./devops_tools.sh
 ```
+
+## Herramientas recomendadas en contenedores o en la nube:
+- `Prometheus + Grafana`: Herramientas de monitoreo
+- `ElasticSearch + Kibana`: Herramienta de análisis y monitoreo de Logs.
+- `Jenkins`: Herramienta para montar pipelines de Ci/CD
