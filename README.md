@@ -3,9 +3,9 @@
 Este repositorio consiste en automatizar las herramientas con las que debe contar un DevOps en su equipo de cómputo.
 Las herramientas pueden variar, entonces considera las herramientas que necesitas o las que se te indique.
 
-## Table of Contents
+## Tabla de Contenido:
 - [Herramientas a instalar en Local](#herramientas-locales-recomendadas).
-- [Herramientas en Contenedores o en la nube](##Herramientas_recomendadas_en_contenedores_o_en_la_nube).
+- [Herramientas en Contenedores o en la nube](#herramientas-recomendadas-en-contenedores-o-en-la-nube).
 
 ## Herramientas Locales recomendadas 
 - `WSL2`: Herramienta que permite trabajar con Linux dentro de Windows.
