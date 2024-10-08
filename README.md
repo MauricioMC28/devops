@@ -23,21 +23,30 @@ Las herramientas pueden variar, entonces considera las herramientas que necesita
 
 <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
 
-### Clona este repositorio en Debian
-```
-https://github.com/MauricioMC28/devops.git
-```
-Accede a la carpeta del repositorio `cd devops`.
+### Esenciales
+Crea un script en Bash para instalar los esenciales
 
-Configuralo como ejecutable con el siguiente comando: `chmod +x devops_tools.sh`
+```
+touch esenciales.sh
+```
+
+Copia el contenido de <a href="https://github.com/MauricioMC28/devops/blob/main/devops_tools.sh"> devops_tools.sh </a> dentro del archivo esenciales.sh
+```
+nano esenciales.sh
+```
+#### Utiliza click Derecho para pegar el contenido
+Utiliza las teclas `CTRL` + `O` Para guardar y `CTRL` + `X` para salir.
+
+Utiliza el siguiente comando para hacer ejecutable el script
+```
+chmod +x esenciales.sh
+```
+
 #### Ejecuta el script
 ```
-sudo ./devops_tools.sh
+sudo ./esenciales.sh
 ```
-
-### Versiones instaladas en este repositorio
-
-### Versiones instaladas
+### El script instala las siguientes herramientas:
 - curl 7.88.1
 - Python 3.11.2
 - gpg (GnuPG) 2.2.40
