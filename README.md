@@ -17,20 +17,7 @@ Las herramientas pueden variar, entonces considera las herramientas que necesita
 - `Docker Compose`: Herramienta de Docker que permite configurar entornos de desarrollo completos con múltiples servicios.
 
 ### Descarga WSL2 e instala Debian
-<a href="https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command"> Documentacion completa a cerca de WSL </a>
-```
-wsl.exe --install -d Debian
-```
-
-#### Actualizar Debian
-- Actualiza el sistema
-```
-sudo apt update && sudo apt upgrade
-```
-Encontrar la IP del WSL - Debian desde Powershell
-```
- wsl.exe -d Debian hostname -I
-```
+<a href="https://gist.github.com/MauricioMC28/90fee9f004f46a7b392e534298abf892"> Instalación de WSL </a>
 
 ### Descarga Visual Studio Code e instala la extensión de Remote Explorer.
 
