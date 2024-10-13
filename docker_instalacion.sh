@@ -37,10 +37,12 @@ if ! comando docker; then
 	sudo apt install -y apt-transport-https ca-certificates gnupg lsb-release
 	sudo apt-get update -y
 	sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+	sudo groupadd docker
 	sudo usermod -aG docker $USER
 	sudo service docker start
+	newgrp docker
 else
 	echo "Docker ya se encuentra instalado en el sistema"
 fi
-
+echo "Revisar: https://docs.docker.com/engine/install/linux-postinstall/ en caso de problemas"
 docker -v
