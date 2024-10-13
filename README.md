@@ -77,5 +77,14 @@ sudo ./esenciales.sh
 - `Prometheus + Grafana`: Herramientas de monitoreo
 - `Jenkins`: Herramienta para montar pipelines de CI/CD
 
-.[!IMPORTANT].
-Para la instalación de las herramientas de monitoreo y Jenkins, es necesario contar con esenciales y Docker instalados en el sistema.
+> [!IMPORTANT]
+> Para la instalación de las herramientas de monitoreo y Jenkins, es necesario contar con esenciales y Docker instalados en el sistema.
+
+### Script de Jenkins
+- Version 2.462.3
+
+### Script de Grafana
+- Latest version: 11.22.0
+
+### Script de Prometheus
+- Latest version: 2.55.0

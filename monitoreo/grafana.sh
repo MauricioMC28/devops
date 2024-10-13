@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Variables
-grafana_imagen="grafana/grafana-enterprise"
+grafana_imagen="grafana/grafana-enterprise:11.2.2"
 grafana_contenedor="grafana"
 grafana_directorio="$HOME/grafana"
 
