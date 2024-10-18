@@ -30,5 +30,6 @@ else
     --volume jenkins-data:/var/jenkins_home \
     --publish 2376:2376 \
     $dind_imagen \
+    dockerd -H tcp://0.0.0.0:2375 \
     --storage-driver overlay2
 fi
