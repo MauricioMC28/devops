@@ -2,7 +2,7 @@
 
 #Declaracion de variables
 prometheus_imagen="prom/prometheus"
-prometheus_contenedor="myprometheus-docker"
+prometheus_contenedor="prometheus-docker"
 prometheus_archivo="./myprometheus/prometheus.yml"
 
 #Revisa si existe la imagen de prometheus
@@ -16,12 +16,13 @@ fi
 if [ "$(docker ps -q -f name=$prometheus_contenedor)" ]; then
     echo "El contenedor $prometheus_contenedor ya existe"
 else
-    echo "Ejecutando el el contenedor Deocker $prometheus_contenedor"
+    echo "Ejecutando el contenedor Docker $prometheus_contenedor"
     docker run \
     --name $prometheus_contenedor \
+    --restart=on-failure \
     --detach \
     --publish 9090:9090 \
-    --volume $prometheus_archivo:/etc/prometheus \
+    --volume $prometheus_archivo:/etc/prometheus/prometheus.yml \
     --volume prometheus-data:/prometheus \
     $prometheus_imagen
 fi
