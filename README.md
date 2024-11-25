@@ -1,19 +1,25 @@
-<h1 align="center">Prepara tu propio ambiente de DevOps en diferentes entornos</h1>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MauricioMC28/maycloud/refs/heads/main/backend/Card_Outline.png?token=GHSAT0AAAAAACZ3KNXWTDWZLOPANE5RZDQGZ2E4VVQ"></img>
+  <h1>Prepara tu propio ambiente de DevOps en diferentes entornos</h1>
+</div>
 
 <p align="center">
 Este repositorio encontrarás scripts de instalación de tecnologías y herramientas de un DevOps, asi como archivos de configuracion para facilitar el despliegue, así como recursos relacionados.
 Actualizado para 2024-2025
 </p>
 
----
-
 ### Tabla de Contenido:
 
-- [Entorno Local](#entorno-local).
+- [Entorno Local](#entorno-local)
   - [WSL2 distro Debian 12](##debian-12)
     - [Tecnologías y Herramientas](###tecnologias-y-herramientas)
 
----
+<div>
+  <h1 align="center">Entorno Local</h1>
+  <h2>Debian 12</h2>
+  Despliega rapidamente las tecnologías más populares de un DevOps utilizando el sistema WSL version 2
+  <h3>Tecnologías y Herramientas</h3>
+</div>
 
 ## Herramientas Locales recomendadas 
 - `WSL2`: Herramienta que permite trabajar con Linux dentro de Windows.
