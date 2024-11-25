@@ -1,10 +1,19 @@
-# Principales herramientas de un DevOps
+<h1 align="center">Prepara tu propio ambiente de DevOps en diferentes entornos</h1>
 
-Este repositorio automatiza las herramientas con las que debe contar un DevOps en su equipo de cómputo y otras que deben desplegarse en la nube o en contenedores.
+<p align="center">
+Este repositorio encontrarás scripts de instalación de tecnologías y herramientas de un DevOps, asi como archivos de configuracion para facilitar el despliegue, así como recursos relacionados.
+Actualizado para 2024-2025
+</p>
 
-## Tabla de Contenido:
-- [Herramientas a instalar en Local](#herramientas-locales-recomendadas).
-- [Herramientas en Contenedores o en la nube](#herramientas-recomendadas-en-contenedores-o-en-la-nube).
+---
+
+### Tabla de Contenido:
+
+- [Entorno Local](#entorno-local).
+  - [WSL2 distro Debian 12](##debian-12)
+    - [Tecnologías y Herramientas](###tecnologias-y-herramientas)
+
+---
 
 ## Herramientas Locales recomendadas 
 - `WSL2`: Herramienta que permite trabajar con Linux dentro de Windows.
