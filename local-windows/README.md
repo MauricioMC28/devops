@@ -19,5 +19,6 @@ Agrega la siguiente linea dentro del archivo hosts:
 
 > [!TIP]
 > Ejemplo:
+>
 > 	172.25.48.169       maycloud.local
 
