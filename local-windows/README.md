@@ -17,6 +17,7 @@ Agrega la siguiente linea dentro del archivo hosts:
 	IP-del-servidor       dominio-personalizado
 ```
 
-> [!Ejemplo:]
+> [!TIP]
+> Ejemplo:
 > 	172.25.48.169       maycloud.local
 
