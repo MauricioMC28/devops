@@ -1,12 +1,12 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/MauricioMC28/maycloud/refs/heads/main/backend/Card_Outline.png?token=GHSAT0AAAAAACZ3KNXWTDWZLOPANE5RZDQGZ2E4VVQ"></img>
-  <h1>Prepara tu propio ambiente de DevOps en diferentes entornos</h1>
-</div>
+![Encabezado](Card_Outline.png)
 
-<p align="center">
+<div align="center">
+  <h1>Prepara tu propio ambiente de DevOps en diferentes entornos</h1>
+  <p>
 Este repositorio encontrarás scripts de instalación de tecnologías y herramientas de un DevOps, asi como archivos de configuracion para facilitar el despliegue, así como recursos relacionados.
 Actualizado para 2024-2025
-</p>
+    </p>
+</div>
 
 ### Tabla de Contenido:
 
