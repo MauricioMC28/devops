@@ -8,9 +8,10 @@ Actualizado para 2024-2025</p>
 ### Tabla de Contenido:
 
 1. [Entorno Local](##entorno-local)
-  1. [Debian 12](###debian-12)
-    1. [Tecnologías y Herramientas](####tecnologias-y-herramientas)
-  2. [Windows](###windows)
+   1. [Debian 12](###debian-12)
+      1. [Tecnologías y Herramientas](####tecnologias-y-herramientas)
+   2. [Windows](###windows)
+2. [Entorno en la nube](##entorno-en-la-nube)
 
 ---
 
@@ -19,6 +20,16 @@ Actualizado para 2024-2025</p>
   <h3>Debian 12</h3>
   <p>Despliega rapidamente las tecnologías más populares de DevOps utilizando el sistema WSL version 2</p>
   <h4>Tecnologías y Herramientas</h4>
+  <table>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+    </tr>
+  </table>
   Automatización
     Ansible `2.16.11`
     Infraestructura como Código Terraform `1.9.7`
@@ -39,12 +50,14 @@ Actualizado para 2024-2025</p>
     Jenkins `2.462.3`
 
   <h4>Procedimiento</h4>
+
   1. Ejecuta el script Esenciales
-    * El script de esenciales se encarga de actualizar el Sistema Operativo y las librerias, también se encarga de instalar herramientas importantes como, curl, Python, gpg (GnuPG), GNU Wget y git.
-    * Crea un archivo llamado `esenciales.sh`
-    * Pega el contenido de <a href="https://github.com/MauricioMC28/DevOps-Environment/blob/main/local-linux/esenciales.sh">esenciales</a> al archivo
-    * Hazlo ejecutable con el siguiente comando `chmod +x esenciales.sh`
-    * Ejecutalo como root `sudo ./esenciales.sh`
+  2. El script de esenciales se encarga de actualizar el Sistema Operativo y las librerias, también se encarga de instalar herramientas importantes como, curl, Python, gpg (GnuPG), GNU Wget y git.
+  3. Crea un archivo llamado `esenciales.sh`
+  4. Pega el contenido de <a href="https://github.com/MauricioMC28/DevOps-Environment/blob/main/local-linux/esenciales.sh">esenciales</a> al archivo
+  5. Hazlo ejecutable con el siguiente comando `chmod +x esenciales.sh`
+  6. Ejecutalo como root `sudo ./esenciales.sh`
+
 </div>
 
 ## Herramientas Locales recomendadas 
