@@ -24,47 +24,47 @@ Actualizado para 2024-2025</p>
     <tr>
       <th>Automatización</th>
       <td>
-          * Ansible `2.16.11` <br>
-          * Terraform `1.9.7`
+          * Ansible <code>v2.16.11</code> <br>
+          * Terraform <code>v1.9.7</code>
       </td>
     </tr>
     <tr>
       <th>Contenedores</th>
       <td>
-          * Docker `27.3.1` <br>
-          * Minikube `1.33.1`
+          * Docker <code>v27.3.1</code> <br>
+          * Minikube <code>v1.33.1</code>
       </td>
     </tr>
     <tr>
       <th>Control de Versiones</th>
       <td>
-          * Git `2.39.2`
+          * Git <code>v2.39.2</code>
       </td> 
     </tr>
     <tr>
       <th>Gateway</th>
       <td>
-        * Kong `Actualizar`
+        * Kong <code>v3.8.0</code>
       </td>
     </tr>
     <tr>
-      <th>Lenguajes de Programacion</th>
+      <th>Lenguajes de Programación</th>
       <td>
-        * Python `3.11.2` <br>
-        * Node `23.2.0`
+        * Python <code>v3.11.2</code> <br>
+        * Node <code>v23.2.0</code>
       </td>
     </tr>
     <tr>
       <th>Monitoreo</th>
       <td>
-        * Prometheus `2.55.0` <br>
-        * Grafana `11.22.0`
+        * Prometheus <code>v2.55.0</code> <br>
+        * Grafana <code>v11.22.0</code>
       </td>
     </tr>
     <tr>
       <th>Pipelines CI/CD</th>
       <td>
-        * Jenkins `2.462.3`
+        * Jenkins <code>v2.462.3</code>
       </td>
     </tr>
   </table>
@@ -72,11 +72,11 @@ Actualizado para 2024-2025</p>
   <h4>Procedimiento</h4>
 
   1. Ejecuta el script Esenciales
-  2. El script de esenciales se encarga de actualizar el Sistema Operativo y las librerias, también se encarga de instalar herramientas importantes como, curl, Python, gpg (GnuPG), GNU Wget y git.
+  2. El script de esenciales se encarga de actualizar el Sistema Operativo y las librerías, también se encarga de instalar herramientas importantes como, curl, Python, gpg (GnuPG), GNU Wget y git.
   3. Crea un archivo llamado `esenciales.sh`
   4. Pega el contenido de <a href="https://github.com/MauricioMC28/DevOps-Environment/blob/main/local-linux/esenciales.sh">esenciales</a> al archivo
   5. Hazlo ejecutable con el siguiente comando `chmod +x esenciales.sh`
-  6. Ejecutalo como root `sudo ./esenciales.sh`
+  6. Ejecútalo como root `sudo ./esenciales.sh`
 
 </div>
 
@@ -86,7 +86,7 @@ Actualizado para 2024-2025</p>
 
 > [!TIP]
 > Descarga Visual Studio Code e instala la extensión de Remote Explorer.
-> <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
+> <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code en Windows 11 </a>
 
 > [!IMPORTANT]
 > Para la instalación de las herramientas de monitoreo y pipelines CICD, es necesario tener actualizado el sistema (ejecutar esenciales) y tener Docker instalado en el sistema.
