@@ -1,24 +1,50 @@
-![Encabezado](Card_Outline.png)
-
 <div align="center">
+  <img src="Card_Outline.png"></img>
   <h1>Prepara tu propio ambiente de DevOps en diferentes entornos</h1>
-  <p>
-Este repositorio encontrarás scripts de instalación de tecnologías y herramientas de un DevOps, asi como archivos de configuracion para facilitar el despliegue, así como recursos relacionados.
-Actualizado para 2024-2025
-    </p>
+  <p>Este repositorio encontrarás scripts de instalación de tecnologías y herramientas de un DevOps, asi como archivos de configuracion para facilitar el despliegue, así como recursos relacionados.
+Actualizado para 2024-2025</p>
 </div>
 
 ### Tabla de Contenido:
 
-- [Entorno Local](#entorno-local)
-  - [WSL2 distro Debian 12](##debian-12)
-    - [Tecnologías y Herramientas](###tecnologias-y-herramientas)
+1. [Entorno Local](##entorno-local)
+  1. [Debian 12](###debian-12)
+    1. [Tecnologías y Herramientas](####tecnologias-y-herramientas)
+  2. [Windows](###windows)
+
+---
 
 <div>
-  <h1 align="center">Entorno Local</h1>
-  <h2>Debian 12</h2>
-  Despliega rapidamente las tecnologías más populares de un DevOps utilizando el sistema WSL version 2
-  <h3>Tecnologías y Herramientas</h3>
+  <h2 align="center">Entorno Local</h2>
+  <h3>Debian 12</h3>
+  <p>Despliega rapidamente las tecnologías más populares de DevOps utilizando el sistema WSL version 2</p>
+  <h4>Tecnologías y Herramientas</h4>
+  Automatización
+    Ansible `2.16.11`
+    Infraestructura como Código Terraform `1.9.7`
+  Contenedores
+    Docker `27.3.1`
+    Minikube `1.33.1`
+  Control de Versiones
+    Git `2.39.2`
+  Gateway
+    Kong `Actualizar`
+  Lenguajes de Programación
+    Python `3.11.2`
+    Node `3.2.0`
+  Monitoreo
+    Prometheus `2.55.0`
+    Grafana `11.22.0`
+  Pipelines CI/CD
+    Jenkins `2.462.3`
+
+  <h4>Procedimiento</h4>
+  1. Ejecuta el script Esenciales
+    * El script de esenciales se encarga de actualizar el Sistema Operativo y las librerias, también se encarga de instalar herramientas importantes como, curl, Python, gpg (GnuPG), GNU Wget y git.
+    * Crea un archivo llamado `esenciales.sh`
+    * Pega el contenido de <a href="https://github.com/MauricioMC28/DevOps-Environment/blob/main/local-linux/esenciales.sh">esenciales</a> al archivo
+    * Hazlo ejecutable con el siguiente comando `chmod +x esenciales.sh`
+    * Ejecutalo como root `sudo ./esenciales.sh`
 </div>
 
 ## Herramientas Locales recomendadas 
