@@ -1,7 +1,7 @@
 <div align="center">
   <img src="Card_Outline.png"></img>
   <h1>Prepara tu propio ambiente de DevOps en diferentes entornos</h1>
-  <p>Este repositorio encontrarás scripts de instalación de tecnologías y herramientas de un DevOps, asi como archivos de configuracion para facilitar el despliegue, así como recursos relacionados.
+  <p>Este repositorio encontrarás scripts de instalación de tecnologías y herramientas de un DevOps, así como archivos de configuración para facilitar el despliegue y recursos relacionados.
 Actualizado para 2024-2025</p>
 </div>
 
@@ -24,14 +24,14 @@ Actualizado para 2024-2025</p>
     <tr>
       <th>Automatización</th>
       <td>
-          * Ansible `2.16.11`
-          * Infraestructura como Código Terraform `1.9.7`
+          * Ansible `2.16.11` <br>
+          * Terraform `1.9.7`
       </td>
     </tr>
     <tr>
       <th>Contenedores</th>
       <td>
-          * Docker `27.3.1`
+          * Docker `27.3.1` <br>
           * Minikube `1.33.1`
       </td>
     </tr>
@@ -50,14 +50,14 @@ Actualizado para 2024-2025</p>
     <tr>
       <th>Lenguajes de Programacion</th>
       <td>
-        * Python `3.11.2`
+        * Python `3.11.2` <br>
         * Node `23.2.0`
       </td>
     </tr>
     <tr>
       <th>Monitoreo</th>
       <td>
-        * Prometheus `2.55.0`
+        * Prometheus `2.55.0` <br>
         * Grafana `11.22.0`
       </td>
     </tr>
@@ -80,13 +80,14 @@ Actualizado para 2024-2025</p>
 
 </div>
 
-### Descarga WSL2 e instala Debian
-<a href="https://gist.github.com/MauricioMC28/90fee9f004f46a7b392e534298abf892"> Instalación de WSL </a>
+> [!TIP]
+> Descarga WSL2 e instala Debian
+> <a href="https://gist.github.com/MauricioMC28/90fee9f004f46a7b392e534298abf892"> Instalación de WSL </a>
 
-### Descarga Visual Studio Code e instala la extensión de Remote Explorer.
-
-<a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
+> [!TIP]
+> Descarga Visual Studio Code e instala la extensión de Remote Explorer.
+> <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"> Descargar visual Studio Code para Windows 11 </a>
 
 > [!IMPORTANT]
-> Para la instalación de las herramientas de monitoreo y Jenkins, es necesario contar con esenciales y Docker instalados en el sistema.
+> Para la instalación de las herramientas de monitoreo y pipelines CICD, es necesario tener actualizado el sistema (ejecutar esenciales) y tener Docker instalado en el sistema.
 
